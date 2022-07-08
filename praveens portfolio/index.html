@@ -1,0 +1,214 @@
+<!DOCTYPE html> <!-- tell version of html file -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website desgin</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="user">
+        <img src="image/my profile.jpeg" alt=""> <!-- local profile image -->
+        <h3>Praveen Kumar</h3>
+        <p>front-end developer</p>
+    </div>
+
+    <nav class="navbar">  
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div id="menu-btn" class="fas fa-bars"></div><!-- menu button , fa= font awesome-->
+
+<!-- theme toggler  -->
+
+<div id="theme-toggler" class="fas fa-moon"></div><!-- moon symbol-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    
+
+    <div class="content">
+        <h3>Praveen Kumar</h3>
+        <p>i am a front-end developer</p>
+        <a href="resume/resume.pdf" target="_blank" class="btn">download Resume</a>
+    </div>
+
+    <div class="share">
+        <!-- fab= floating action button -->
+        <a href="mailto:pvktime@gmail.com?" class="fab fa-google"></a>
+        <a href="https://www.linkedin.com/in/praveen-kumar-yepalagunta" target="_blank" class="fab fa-linkedin"></a>
+         
+    </div>
+
+</section>
+
+<!-- home section ends -->
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- about section starts  -->
+
+<section class="about" id="about"><!-- class for group selection, id for only one selection-->
+
+    <h1 class="heading"> <span>about</span> me </h1><!-- span for color other editing-->
+
+    <div class="row">
+        <div class="content">
+            <h3>my name is <span>Praveen Kumar</span></h3>
+            <p>I am a big fan of science and technology. I believe that honesty is the secret key to success. I want to
+                become a professional full stack web developer. I forget myself when I was working for passionate
+                things.</p>
+            <a href="#" class="btn">contact me</a>
+        </div>
+
+    </div>
+
+    <div class="row">
+ 
+
+        <div class=" " id="skills">
+            <h3> HTML </h3>
+          
+            <h3> CSS </h3>
+             
+            <h3> javascript </h3>
+            <h3>c++</h3>
+          
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> my <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-code"></i><!-- fas= font awesome symbol -->
+            <h3>web development</h3>
+            
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i><!-- italic style(forward bend)-->
+            <h3>Logo design</h3>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- projects section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> my <span>projects</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+                           
+            <a href=" https://codepen.io/IN-TIME/pen/yLgGYjp" target="_blank" class="">
+            <img src="image/product landing page.png" alt="">
+            <div class="content">
+                <h3>project 1</h3>
+            </div>
+        </a>
+        </div>
+
+
+        <div class="box">
+            <a href=" https://codepen.io/IN-TIME/pen/bGgxYqa" target="_blank" class="">
+            <img src="image/samsung survey form edited.png" alt="">
+            <div class="content">
+                <h3>project 2</h3>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href=" https://codepen.io/IN-TIME/pen/JjEppwJ" target="_blank" class="">
+            <img src="image/tribute page.png" alt="">
+            <div class="content">
+                <h3>project 3</h3>
+            </div>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="https://codepen.io/IN-TIME/pen/zYNVaPm " target="_blank" class="">
+            <img src="image/technical documentation page.png" alt="">
+            <div class="content">
+                <h3>project 4</h3>
+            </div>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<!-- projects section ends -->
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+
+    <form action="">
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="text" placeholder="subject" class="box">
+        <textarea name="" class="box" placeholder="your message" id=""  cols="30"  rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="credits"> created by <span>Praveen Kumar</span> | &copy all rights reserved </div>
+
+
+<!--   js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
